@@ -46,7 +46,7 @@ Shipping operations frequently suffer from invisible financial drainage caused b
 ## 🎨 Application Screenshots
 
 ### 📊 Power BI Executive Control Tower
-![Power BI Dashboard](assets/powerbi_dashboard.png)
+![Power BI Dashboard](assets/Power BI Dashboard.png)
 
 ### 💻 Streamlit Interactive Web Application
 ![Streamlit App](assets/streamlit_app.png)
