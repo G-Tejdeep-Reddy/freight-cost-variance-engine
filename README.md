@@ -49,7 +49,7 @@ Shipping operations frequently suffer from invisible financial drainage caused b
 ![Power BI Dashboard](assets/powerbi_dashboard.png)
 
 ### 💻 Streamlit Interactive Web Application
-![Streamlit App](assets/streamlit_app_1.png)
+![Streamlit App](streamlit_app_1.png)
 
 ![Streamlit App](assets/streamlit_app_2.png)
 
