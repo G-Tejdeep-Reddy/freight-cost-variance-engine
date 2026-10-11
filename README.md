@@ -46,30 +46,32 @@ Shipping operations frequently suffer from invisible financial drainage caused b
 ## 🎨 Application Screenshots
 
 ### 📊 Power BI Executive Control Tower
-![Power BI Dashboard](assets/Power BI Dashboard.png)
+![Power BI Dashboard](assets/powerbi_dashboard.png)
 
 ### 💻 Streamlit Interactive Web Application
-![Streamlit App](assets/streamlit_app.png)
+![Streamlit App](assets/streamlit_app_1.png)
+
+![Streamlit App](assets/streamlit_app_2.png)
 
 ---
 
 ## 📂 Project Directory Structure
 
 ```text
-freight-cost-variance-analytics/
-│
+freight-cost-variance-engine/
 ├── assets/
 │   ├── powerbi_dashboard.png            # Screenshot of Power BI report
-│   └── streamlit_app.png                # Screenshot of Streamlit app
-│
-├── data/
-│   └── freight_variance_export.csv      # Cleaned star-schema CSV export
+│   ├── streamlit_app_1.png              # Screenshot of Streamlit app view 1
+│   └── streamlit_app_2.png              # Screenshot of Streamlit app view 2
 │
 ├── sql/
-│   └── schema_ddl.sql                   # PostgreSQL schema creation scripts
+│   ├── 01_schema.sql                    # PostgreSQL schema creation scripts
+│   ├── 02_variance_view.sql             # SQL view for cost variance analysis
+│   └── 03_carrier_view.sql              # SQL view for carrier performance
 │
 ├── scripts/
-│   └── data_pipeline.py                 # Python ETL & data processing script
+│   ├── ingest_freight_data.py           # Python ETL & data ingestion script
+│   └── detect_anomalies.py              # Python variance anomaly detection script
 │
 ├── app.py                               # Streamlit interactive web application
-└── README.md                            # Project documentation
+└── README.md                            # Project documentation & portfolio guide
