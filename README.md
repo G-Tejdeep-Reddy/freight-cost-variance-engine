@@ -58,7 +58,7 @@ Shipping operations frequently suffer from invisible financial drainage caused b
 ## 📂 Project Directory Structure
 
 ```text
-ffreight-cost-variance-analytics/
+freight-cost-variance-analytics/
 ├── scripts/
 │   ├── detect_anomalies.py              # Python variance anomaly detection script
 │   └── ingest_freight_data.py           # Python ETL & data ingestion script
