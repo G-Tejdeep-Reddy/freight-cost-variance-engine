@@ -71,7 +71,7 @@ freight-cost-variance-analytics/
 ├── powerbi_dashboard.png                # Power BI executive control tower screenshot
 ├── streamlit_app_1.png                  # Streamlit interactive application view 1
 └── streamlit_app_2.png                  # Streamlit interactive application view 2
-
+```
 ---
 
 ## 💡 Key Business Insights & Strategic Recommendations
