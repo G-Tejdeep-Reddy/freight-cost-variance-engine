@@ -3,7 +3,7 @@
 [![Streamlit App](https://img.shields.io/badge/Live%20Demo-Streamlit-ff4b4b?style=for-the-badge&logo=streamlit&logoColor=white)](https://freight-app-mcdpgnbrf4c2odtrgjbmmc.streamlit.app)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Star%20Schema-336791?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
-[![Power BI](https://img.shields.io/badge/Power%20BI-Executive%20Control%20Tower-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://powerbi.microsoft.com/)
+[![Power BI](https://img.shields.io/badge/Power%20BI-Executive%20Control%20Tower-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://app.powerbi.com/view?r=eyJrIjoiYjFjYmExMDQtMmRkYi00YzQ1LWI1ODUtOTUxOTQ5ZjhjMWFlIiwidCI6IjQ3NzMxNGM0LWQwYjMtNDJiZC05ODU1LWU1ZDUyYmY2YTFhYSJ9)
 
 An end-to-end supply chain analytics pipeline and dual-frontend control tower designed to track freight spend, detect contract variances, audit carrier service level agreements (SLAs), and eliminate cost leakage across multi-modal transport networks.
 
@@ -30,8 +30,8 @@ Shipping operations frequently suffer from invisible financial drainage caused b
 
 1. **Star-Schema Modeling (PostgreSQL):** Designed a robust relational database structure (`dim_shipping_lanes` and `fact_freight_transactions`) to prevent data anomalies and manage multi-modal shipping logs efficiently.
 2. **Data Pipeline & Metrics (Python & SQL):** Cleaned transactional logs and programmatically computed dynamic financial metrics—specifically **Cost Leakage** (`variance_vs_contract_usd`) by subtracting contracted base rates from actual spot rates.
-3. **Custom Web Application (Streamlit):** Developed a Python-driven web app (`app.py`) allowing users to interactively query multi-modal shipping performance, view corridor breakdowns, and filter by carrier tiers.
-4. **Executive Control Tower (Power BI Service):** Deployed a browser-based analytics dashboard featuring executive KPI summary cards, route-level Trade Lane audit matrices, carrier performance rankings, and monthly cost trend lines.
+3. **Custom Web Application (Streamlit):** Developed and deployed a Python-driven web app (`app.py`) allowing users to interactively query multi-modal shipping performance, view corridor breakdowns, and filter by carrier tiers.
+4. **Executive Control Tower (Power BI Service):** Developed and published an analytics dashboard featuring executive KPI summary cards, route-level Trade Lane audit matrices, carrier performance rankings, and monthly cost trend lines.
 
 ---
 
